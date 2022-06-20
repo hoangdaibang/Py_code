@@ -1,4 +1,4 @@
-from bang import emailProcess, PrintMsg
+from Sub_module import emailProcess, PrintMsg
 
 emails = ['hoangdaibang0804@gmail.com', 'bang95pro@gmail.com', '16t1031004@gmail.com']
 
