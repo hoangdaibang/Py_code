@@ -72,22 +72,22 @@ Tham số bắt buột và tham số mặt định
 #     varibleLengthArgExample(3, 5, "Hoang", "Dai", "Bang", foot_size = 42, age = 24)
 
 #không cố định là *args và **kwargs hai tham số này có thể được dặt vói tên bất kì vói cú pháp *name_parameter và **name_parameter
-def varibleLengthArgExample_1(a, b, *c, **d):
-    print(a, b) 
-    for arg in c:
-        print(arg) 
-    for key, value in d.items():
-        print(f"{key} : {value}")
+# def varibleLengthArgExample_1(a, b, *c, **d):
+#     print(a, b) 
+#     for arg in c:
+#         print(arg) 
+#     for key, value in d.items():
+#         print(f"{key} : {value}")
 
 
  
-def main():
-    varibleLengthArgExample_1(3, 5, "Hoang", "Dai", "Bang", foot_size = 42, age = 24)
+# def main():
+#     varibleLengthArgExample_1(3, 5, "Hoang", "Dai", "Bang", foot_size = 42, age = 24)
 
 
 
 
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
